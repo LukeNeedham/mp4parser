@@ -31,6 +31,12 @@ To build this project locally, run `mvn package`.
 
 To use this library, use the artifact distributed via Jitpack: https://www.jitpack.io/
 
+Make sure to pull in every module you need. The syntax for that on Jitpack is a bit unexpected:
+```
+implementation("com.github.LukeNeedham.mp4parser:muxer:1.9.60")
+implementation("com.github.LukeNeedham.mp4parser:isoparser:1.9.60")
+```
+
 
 
 
