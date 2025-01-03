@@ -24,6 +24,14 @@ override fun onCreate() {
 }
 ```
 
+How to use?
+--------------------
+
+To build this project locally, run `mvn package`.
+
+To use this library, use the artifact distributed via Jitpack: https://www.jitpack.io/
+
+
 
 
 Original README follows...
