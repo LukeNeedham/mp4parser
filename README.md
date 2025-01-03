@@ -3,6 +3,31 @@
  * Current central released version 1.x branch: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.googlecode.mp4parser/isoparser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.googlecode.mp4parser/isoparser)
  * Current central released version 2.x branch: [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.mp4parser/isoparser/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.googlecode.mp4parser/isoparser)
 
+Android MP4 Parser
+====================
+
+This fork simply changes the loading of the `properties` file, so that it is handled by the consumer of the library rather than the library internally. This allows the library to run on Android.
+
+How to use?
+--------------------
+
+You need to setup `ParserPropertiesProvider` as quickly as possible.
+
+On Android you can do that in your `Application` class.
+
+```
+override fun onCreate() {
+  super.onCreate()
+  ParserPropertiesProvider.getInputStream = {
+    getAssets().open("isoparser2-default.properties")
+  }
+}
+```
+
+
+
+Original README follows...
+
 
 Java MP4 Parser
 ====================
