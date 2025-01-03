@@ -1,6 +1,6 @@
 package org.mp4parser;
 
-class ParserPropertiesProviderHolder {
+public class ParserPropertiesProviderHolder {
     /**
      * The consumer of this library needs to set this up
      * in the way that works on the platform being used.
