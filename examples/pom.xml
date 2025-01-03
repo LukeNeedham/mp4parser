@@ -10,17 +10,17 @@
         <dependency>
             <groupId>org.mp4parser</groupId>
             <artifactId>isoparser</artifactId>
-            <version>1.9.56-SNAPSHOT</version>
+            <version>1.9.58</version>
         </dependency>
         <dependency>
             <groupId>org.mp4parser</groupId>
             <artifactId>muxer</artifactId>
-            <version>1.9.56-SNAPSHOT</version>
+            <version>1.9.58</version>
         </dependency>
         <dependency>
             <groupId>org.mp4parser</groupId>
             <artifactId>streaming</artifactId>
-            <version>1.9.56-SNAPSHOT</version>
+            <version>1.9.58</version>
         </dependency>
         <dependency>
             <groupId>xom</groupId>

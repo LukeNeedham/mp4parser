@@ -3,7 +3,7 @@
     <groupId>org.mp4parser</groupId>
     <artifactId>mp4parser-project</artifactId>
     <packaging>pom</packaging>
-    <version>1.9.57-SNAPSHOT</version>
+    <version>1.9.58</version>
     <name>MP4 Parser Project</name>
     <description>MP4 Parser Project (parent) </description>
     <developers>
