@@ -18,7 +18,7 @@ On Android you can do that in your `Application` class.
 ```
 override fun onCreate() {
   super.onCreate()
-  ParserPropertiesProvider.getInputStream = {
+  ParserPropertiesProviderHolder.get = {
     getAssets().open("isoparser2-default.properties")
   }
 }
